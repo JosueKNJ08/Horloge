@@ -18,14 +18,35 @@
     overflow: hidden;
     transition: none;
 }
-.container img:hover{
-    background-color: aqua;
-    
-}
 .container h1{
     color: #FBE4D8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 90px;
     letter-spacing: 5px;
     position: absolute;
+}
+.status{
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    font-size: 25px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.update{
+    position: absolute;
+    border: none;
+    background-color: white;
+    color: #2B124C;
+    bottom: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#userInput{
+    position: absolute;
+    bottom: 60px;
 }

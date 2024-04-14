@@ -1,6 +1,12 @@
 let date = document.getElementById("localTime");
 var image = document.getElementById("image");
 
+function changeStatus(){
+    let newStatus = document.getElementById("userInput").value;
+    let p = document.querySelector("p.status");
+    p.innerHTML = newStatus;
+
+}
 function refreshTime(){
     var d = new Date();
     date.innerHTML = d.toLocaleTimeString();
